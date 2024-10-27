@@ -1,6 +1,6 @@
 # Robotics Lab 24 - Homework 1
 
-## 4-DOFs Robot Manipulator Arm Simulation in ROS2
+## 4-DOFs Arm Simulation in ROS2
 
 ### Project Overview
 

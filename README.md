@@ -54,7 +54,7 @@ ros2 launch arm_description display.launch.py
 ```
 ros2 launch arm_gazebo arm_world.launch.py
 ```
-#### To spawn the the controllers, while running the simulation.
+#### To spawn the controllers, while running the simulation.
 ```
 ros2 launch arm_control arm_control.launch.py
 ```

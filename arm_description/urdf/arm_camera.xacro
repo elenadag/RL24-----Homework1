@@ -14,7 +14,7 @@
     <joint name="${camera_name}_joint" type="fixed">
         <parent link="${camera_parent_link}"/>
         <child link="${camera_name}_link"/>
-        <origin xyz="0 0 0.00" rpy="0.0 1.57 0"/>
+        <origin xyz="0 0 0.00" rpy="0.0 0.30 0"/>
     </joint>
 
   <gazebo>
@@ -35,7 +35,7 @@
         <height>240</height>
       </image>
       <clip>
-        <near>0.1</near>
+        <near>0.05</near>
         <far>100</far>
       </clip>
     </camera>

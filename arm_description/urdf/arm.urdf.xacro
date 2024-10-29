@@ -18,7 +18,7 @@
  <link name="base_link">
     <visual>
       <geometry>
-        <mesh filename="package://arm_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find arm_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <material name="red"/>
